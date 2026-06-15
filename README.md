@@ -17,8 +17,8 @@ Através de um chatbot interativo que utiliza o tom de voz informal e levemente 
 ## 🛠️ Estrutura do Agente
 
 O projeto é composto por dois arquivos estruturais que dão vida ao assistente:
-* **[AGENTS.md](file:///c:/Meus%20documentos/CURSOS/DIO_HEINEKEN%20-%20IA%20Aplicada%20a%20Vendas/5%20-%20Construindo%20um%20Copiloto%20Especialista%20de%20Vendas%20%28Projeto%20Final%29/dio-agent-antigravity/projeto-copiloto-fys/AGENTS.md)**: Contém as regras de comportamento, diretrizes de tom de voz e exemplos de interação da IA.
-* **[knowledge/fys-brand.md](file:///c:/Meus%20documentos/CURSOS/DIO_HEINEKEN%20-%20IA%20Aplicada%20a%20Vendas/5%20-%20Construindo%20um%20Copiloto%20Especialista%20de%20Vendas%20%28Projeto%20Final%29/dio-agent-antigravity/projeto-copiloto-fys/knowledge/fys-brand.md)**: A base de conhecimento oficial que serve como fonte única de verdade sobre a marca, os produtos, composições e sugestões de harmonizações.
+* **[AGENTS.md](AGENTS.md)**: Contém as regras de comportamento, diretrizes de tom de voz e exemplos de interação da IA.
+* **[knowledge/fys-brand.md](knowledge/fys-brand.md)**: A base de conhecimento oficial que serve como fonte única de verdade sobre a marca, os produtos, composições e sugestões de harmonizações.
 
 ### Principais Pilares do Copiloto:
 - **Tom de voz:** Informal, direto, sincero e bem-humorado (amigo especialista).
@@ -28,7 +28,7 @@ O projeto é composto por dois arquivos estruturais que dão vida ao assistente:
 ---
 
 ## 💬 Exemplos de Prompts e Testes rápidos
-Você pode testar este agente em qualquer modelo de linguagem (ChatGPT, Claude, Gemini). Basta copiar o conteúdo do [AGENTS.md](file:///c:/Meus%20documentos/CURSOS/DIO_HEINEKEN%20-%20IA%20Aplicada%20a%20Vendas/5%20-%20Construindo%20um%20Copiloto%20Especialista%20de%20Vendas%20%28Projeto%20Final%29/dio-agent-antigravity/projeto-copiloto-fys/AGENTS.md) e colar como **Instruções do Sistema (System Instructions)** ou enviar como o primeiro prompt:
+Você pode testar este agente em qualquer modelo de linguagem (ChatGPT, Claude, Gemini). Basta copiar o conteúdo do [AGENTS.md](AGENTS.md) e colar como **Instruções do Sistema (System Instructions)** ou enviar como o primeiro prompt:
 
 > *"A partir de agora, comporte-se exatamente de acordo com as especificações do AGENTS.md abaixo:"*
 > *(Cole o conteúdo de AGENTS.md)*
